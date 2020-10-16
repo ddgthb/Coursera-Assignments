@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#Chickendiv{
+    background-color:	#9f97a8;
+    border: 2px solid #000000;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 30px;
+    position: relative;
+}
+#Chickendiv h2{
+    background-color: #ca4202;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 0px;
+    width: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+}
+#Chickendiv p{
+    padding: 10px;
+    padding-top: 35px;
+}
+#Beefdiv{
+    background-color:	#9f97a8;
+    border: 2px solid #000000;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 30px;
+    position: relative; 
+}
+#Beefdiv h2{
+    background-color: #c61401;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 0px;
+    width: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+}
+#Beefdiv p{
+    padding: 10px;
+    padding-top: 35px;
+}
+#Sushidiv{
+    background-color:	#9f97a8;
+    border: 2px solid #000000;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 30px;
+    position: relative;
+}
+#Sushidiv h2{
+    background-color: #860e3b;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 0px;
+    width: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+}
+#Sushidiv p{
+    padding: 10px;
+    padding-top: 35px;
+}
