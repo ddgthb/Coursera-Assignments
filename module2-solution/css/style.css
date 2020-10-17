@@ -1,7 +1,6 @@
 body{
     margin: 30px;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 h1{
@@ -9,57 +8,66 @@ h1{
     margin-top: 50px;
 }
 @media (min-width: 992px){
-    #Chickendiv, #Beefdiv, #Sushidiv{
+    #Chicken, #Beef, #Sushi{
         Float: left;
     }
-    #Chickendiv{
+    #Chicken{
         Width: 33.33%
     }
-    #Beefdiv{
+    #Beef{
         Width: 33.33%
     }
-    #Sushidiv{
+    #Sushi{
         Width: 33.33%
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    #Chickendiv, #Beefdiv, #Sushidiv{
+    #Chicken, #Beef, #Sushi{
     Float: left;
     }
-    #Chickendiv{
+    #Chicken{
     Width: 50%
     }
-    #Beefdiv{
+    #Beef{
     Width: 50%
     }
-    #Sushidiv{
+    #Sushi{
     Width: 100%
     }
 }
 @media (max-width: 767px)  {
-    #Chickendiv, #Beefdiv, #Sushidiv{
+    #Chicken, #Beef, #Sushi{
     Float: left;
     }
-    #Chickendiv{
+    #Chicken{
     Width: 100%
     }
-    #Beefdiv{
+    #Beef{
     Width: 100%
     }
-    #Sushidiv{
+    #Sushi{
     Width: 100%
     }
 }  
+#Chicken{
+    margin-right: auto;
+    margin-left: auto;
+}
+#Beef{
+    margin-right: auto;
+    margin-left: auto;
+}
+#Sushi{
+    margin-right: auto;
+    margin-left: auto;
+}
 #Chickendiv{
     background-color:	#9f97a8;
     border: 1px solid #000000;
     box-sizing: border-box;
     padding: 0px;
-    margin: 30px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 15px;
     position: relative;
-    
 }
 #Chickendiv h2{
     background-color: #ca4202;
@@ -80,9 +88,7 @@ h1{
     border: 1px solid #000000;
     box-sizing: border-box;
     padding: 0px;
-    margin: 30px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 15px;
     position: relative; 
 }
 #Beefdiv h2{
@@ -104,9 +110,7 @@ h1{
     border: 1px solid #000000;
     box-sizing: border-box;
     padding: 0px;
-    margin: 30px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 15px;
     position: relative;
 }
 #Sushidiv h2{
