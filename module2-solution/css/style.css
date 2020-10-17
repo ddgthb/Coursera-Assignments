@@ -1,20 +1,65 @@
 body{
-    margin: 0;
+    margin: 30px;
     padding: 0;
+    
 }
 
 h1{
     text-align: center;
     margin-top: 50px;
 }
+@media (min-width: 992px){
+    #Chickendiv, #Beefdiv, #Sushidiv{
+        Float: left;
+    }
+    #Chickendiv{
+        Width: 33.33%
+    }
+    #Beefdiv{
+        Width: 33.33%
+    }
+    #Sushidiv{
+        Width: 33.33%
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #Chickendiv, #Beefdiv, #Sushidiv{
+    Float: left;
+    }
+    #Chickendiv{
+    Width: 50%
+    }
+    #Beefdiv{
+    Width: 50%
+    }
+    #Sushidiv{
+    Width: 100%
+    }
+}
+@media (max-width: 767px)  {
+    #Chickendiv, #Beefdiv, #Sushidiv{
+    Float: left;
+    }
+    #Chickendiv{
+    Width: 100%
+    }
+    #Beefdiv{
+    Width: 100%
+    }
+    #Sushidiv{
+    Width: 100%
+    }
+}  
 #Chickendiv{
     background-color:	#9f97a8;
-    border: 2px solid #000000;
-    width: 30%;
+    border: 1px solid #000000;
     box-sizing: border-box;
     padding: 0px;
     margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
+    
 }
 #Chickendiv h2{
     background-color: #ca4202;
@@ -32,11 +77,12 @@ h1{
 }
 #Beefdiv{
     background-color:	#9f97a8;
-    border: 2px solid #000000;
-    width: 30%;
+    border: 1px solid #000000;
     box-sizing: border-box;
     padding: 0px;
     margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
     position: relative; 
 }
 #Beefdiv h2{
@@ -55,11 +101,12 @@ h1{
 }
 #Sushidiv{
     background-color:	#9f97a8;
-    border: 2px solid #000000;
-    width: 30%;
+    border: 1px solid #000000;
     box-sizing: border-box;
     padding: 0px;
     margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
 }
 #Sushidiv h2{
