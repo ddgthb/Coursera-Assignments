@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+#header-nav{
+    background-color: #252842;
+    border-radius: 0;
+    border: 0;
+    height: 170px;
+}
+#logo-img{
+    background: url('../images/Foodlogo.png') no-repeat;
+    width: 150px;
+    height: 127px;
+    margin: 20px 15px 0px 0px;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 1cm;
+    font-weight: bold;
+    height: .75px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;   
+}
+
+/* A partir de aquí */
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #cf1919;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  /* Hasta aquí */
+  
+#content{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#Chicken{
+    background-color: #252842;
+    color: #ffffff;
+    margin:10px;
+    padding: 15px;
+    width: 100%
+    box-sizing: border-box;
+}
+#Chickendiv h2{
+    text-align: center;
+}
+#Beef{
+    background-color: #252842;
+    color: #ffffff;
+    margin:10px;
+    padding: 15px;
+    width: 100%
+    box-sizing: border-box;
+}
+#Beefdiv h2{
+    text-align: center;
+}
+#Sushi{
+    background-color: #252842;
+    color: #ffffff;
+    margin:10px;
+    padding: 15px;
+    width: 100%
+    box-sizing: border-box;
+}
+#Sushidiv h2{
+    text-align: center;
+}
